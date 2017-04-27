@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Contactjamia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/contactusb" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email|phone|map|all"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:text="E-mail Addresses and telephone numbers of university officers:\n\n
+  Vice Chancellor:\n\n
+        Professor Dr. Seyed Ehtesham Hasnain (91-11) 26059688, Fax. (91-11) 26059663.\n\n
+  Registrar:\n\n
+        Dr. Firdous Ahmad Wani  (91-11) 26059688\n\n
+  Send all your queries related to admission and courses offered\n\n
+        Dr. M. Ibrahim (Assistant Registrar, Admissions)\n\n
+  Send all your queries and comments related to the website to the Computer Centre:\n\n
+  Computer Centre\n\n
+  Send all your queries related to admission and courses offered (Foreign Students)\n\n
+  Foreign Students Advisor (Dr. Asim Ali Khan)\n
+  011-26059688 Extn. (Office) 5715\n\n
+  Public Information Officer (Mr. M.G. Vinod Kumar)\n\n
+  Queries related to University Placements, please contact to Training and Placement Officer\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            " />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_international_student_cell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.international_student_cell">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="0.01"
+                app:srcCompat="@drawable/studentccell" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nABOUT JAMIA HAMDARD\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamia Hamdard is a Deemed to be University under Section 3 of UGC Act, 1956. A high ranking and consecutively two times accredited University in 'A' Category by National Assessment and Accreditation Council (NAAC), it considers itself different from others in view of its value based education and work culture on the campus. It is recognized by the Association of Indian Universities (AIU), University Grants Commission and Ministry of HRD, Government of India. It is also recognized by the concerned Technical Council/s established by Government of India for various programs of study like Medical Council of India (MCI), Central Council of Indian Medicine (CCIM), Indian Nursing Council (INC), All India Council of Technical Education (AICTE), Pharmacy Council of India (PCI) and Delhi Council of Physiotherapy and Occupational Therapy (DCPOT) etc.\n\nEstablished by (Late) Hakim Abdul Hameed and inaugurated by then Prime Minister of India (Late) Mr. Rajiv Gandhi in the year 1989, it has
+become a well known institution for teaching and research in emerging areas of knowledge like Pharmaceutical Sciences, Biological
+Sciences, Modern Medical Education, Allied Health Sciences, Unani Medicine, Nursing, Information Technology, Management Studies,
+Islamic Studies and Social Sciences. Jamia Hamdard is one of the few Universities in the country which has catered to the needs of foreign
+students by imparting excellent education and training / research and constructing two separate Hostels for International students with State
+of the Art facilities on its campus.\n\nThe University has been maintaining a steady progress in all facets in its existence of 25 years. The overall progress has been excellent in
+terms of improvement in infrastructure, maintaining quality education, high quality research, good placement records of students in India and
+abroad, national and International collaborations etc. With the continued commitment and dedication, University is marching ahead,
+contributing to the requirements of human resource for the advancing economy of 21st century.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INTERNATIONAL STUDENTS CELL\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamia Hamdard is proud of its culture and traditions. University is a home for about 450 students from about 35 countries across the globe, making it a truly International University. Here the student is networked with a number of fellow students and a large community of International Alumni, which help the student to grow in different spheres of academic, research , personal and professional life, providing a true cross cultural environment of learning in a very safe and conducive environment.\n\nForeign Students' Advisor Ofce is a hub of activities of foreign nationality students. It provides guidelines related to admission,
+issue of offer letters for provisional admissions, bonade certicates, stay, guidance to register with Foreign Regional
+Registration Ofce (FRRO), medical tness examination, maintaining lawful status, extension of stay, transfer of
+schools/programs, addressing any other academic or administrative problems of foreign students and running English
+language prociency program etc.\n\nIt also provides assistance to international students, scholars, and visiting faculty members with regard to formal orientation of
+the campus, advice and counsel for educational, social, and personal problems and dissemination of important and timely
+information through notices.\n\nFor matters concerning foreign students educational, tuition fee, signing of MOU's and other related academic and administrative matters,
+the ofce maintains communication with various embassies, University Grants Commission (UGC), Association of Indian Universities (AIU),
+Indian Council for Cultural Relations (ICCR), Various governing Councils, EdCil, and concerned ofces of Ministries of External Affairs and
+Home Affairs, Govt. of India.\n\nEach year during the admission time, certain existing students/ faculty members from various departments/faculties are identied, who
+provide voluntary service of counseling new candidates seeking admission at Jamia Hamdard. Care is taken that Arabic and Persian speaking
+students are nominated, who provide assistance to such candidates who are not well versed with English Language.\n\nPeriodic meetings of foreign students are being organized at Convention Centre, Jamia Hamdard with the ofcers of the respective
+Embassies to discuss various issues related to academics/hostels/fee and other relevant issues at Jamia Hamdard. The concerned ofcers
+from various departments of the University are also invited to attend and address these meetings.\n\nForeign Students' Advisor in consultation with various Heads of Department/s has identied certain faculty members (Academic Mentors)
+who are made responsible for co-ordination with foreign students in their respective faculties /departments to address day to day
+problems/issues encountered by the foreign students.\n\nThe ofce also organizes various Literary and Cultural programs for the foreign students of Jamia Hamdard. Each year a well awaited Cultural
+Evening /Get Together “Rendezvous” is organized in the month of February/March. This is a cultural evening of foreign students studying in
+Jamia Hamdard. Program is also attended by Ambassadors and Diplomats of various embassies in New Delhi, ofcers of Govt. of India,
+students' family members along with ofcers and faculty members of the University and International students studying at certain other
+Universities in Delhi.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRESENTLY ENROLLED STUDENTS\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afghanistan,
+ Algeria, Bangladesh, Bhutan, Canada, China, Congo, Eritrea, Ethiopia, GabonGhana, Iran, Kazakhstan, Kenya, Saudi Arabia, Kuwait, Libya, Maldives, Mongolia, Iraq, Nepal, Nigeria, Oman, Jordan, Sudan, Palestine, Syria, Tanzania, Tibet, Turkey, Uganda, U.S.A, Vietnam, Yemen, Zimbabwe\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FACILITIES FOR FOREIGN STUDENTS AT THE UNIVERSITY CAMPUS\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hakim Mohammed Said Library\n\n *State of the Art Computer Centre\n\n *Hakeem Abdul Hameed Centenary Hospital\n\n *Majeedia Unani Hospital\n\n *Central Animal House Facility\n\n *Hamdard Convention Centre\n\n *Scholars House\n\n *Sports Complex for Football, Cricket and Volleyball\n\n *State of the Art Gymnasium for workouts n indoor games like Table Tennis, Badminton and Squash\n\n *National Bank\n\n *Post and Telegraph Ofce\n\n *Central Store\n\n *24 Hours ATM Facility\n\n *University Canteen\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSTELS:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Abdul Mueed New Hall of Residence (Girls Hostel)\n\n2. Annemarie Schimmel (PG) Girls Hostel\n\n3. Ibn-e-Sina (PG) Girls Hostel\n\n4. Al-Biruni (UG) Boys Hostel\n\n5. Ibn-e-Batuta (PG) Boys Hostel\n\n6. Jawaharlal Nehru International Boys Hostel (for Foreign Nationals).\n\n7. AMHR Girls Hostel (for Foreign Nationals)\n\n8. Two rooms bachelors accommodation\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

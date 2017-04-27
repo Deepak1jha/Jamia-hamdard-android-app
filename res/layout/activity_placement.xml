@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_placement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Placement">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:background="@drawable/placement" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visit related assistance\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.46"
+                android:contentDescription="@string/placement"
+                android:text="Organisations are welcome to make a pre-placement talk, which provides an opportunity for the organizations to showcase their corporate requirements and the job profiles.\n
+            \The candidates are available for placement in the following fields of specialization:\n\n
+            \n* M.C.A.(Master of Computer Application)\n\n
+* M.Sc.( Computer Science)\n\n
+* M.B.A. (Master of Business Administration)\n
+* M.B.A. (Health, Hospital and Pharmaceutical Management)\n\n
+* M.Pharm.(Master of Pharmacy)\n\n
+* B.Pharm. (Bachelor of Pharmacy)\n\n
+* D.Pharm. (Diploma in Pharmacy)\n\n
+* M.D.(Unani)\n\n
+* B.U.M.S (Bachelor of Unani Medicine and Surgery)\n\n
+* M.O.Th.(Master Of Occupational Therapy)\n\n
+* M.P.Th. (Master of Physiotherapy)\n\n
+* B.P.Th. (Bachelor of Physiotherapy)\n\n
+* B.O.Th. (Bachelor of Occupational Therapy)\n\n
+* M.Sc. (Bio-Chemistry, Bio-Technology, Toxicology, Industrial Chemistry and Environmental Botany)\n\n
+* B.Sc. (Hons.) Nursing\n\n
+* Diploma in General Nursing and Midwifery\n\n\n
+Besides recruitment-related activities, companies are welcome to visit our facilities and meet faculty members for exploring new areas of collaborative research and consultancy projects.\n\n\n\n
+
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Liaison with students before the visit\n\n
+* Display of organization’s publicity material\n\n
+* Announcement of the openings\n\n
+* Collection of resumes from the students and forwarding them to organizations\n\n
+* Delivery of the company’s communication to the individual student\n\n
+* Conference rooms for pre-placement talks, group-discussions and interviews\n\n
+* Audio-visual facilities for pre-placement Talks.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We look forward to the visit of interested organizations to Jamia Hamdard for mutually beneficial interactions.\n\n
+            Organizations interested in Placement Activities are requested to confirm their participation through mail or fax.\n\n
+                  List of our major recruiters/Trainers:\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="none|email|phone|map|all"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:text="* Tata Consultancy Services\n\n * Perot System TSI Ltd\n\n * Newgen Software Tech. Ltd\n\n * HP Glabal Soft Limited\n\n * Birlasoft Technologies Ltd\n\n * Maruti Udyog Ltd\n\n * Mahindra British Telecom\n\n * DCM Technologies\n\n * JK Technosoft Infozech Software Ltd\n\n * Max Newyork Life Insurance Co.Ltd\n\n * Escort Heart Institute and Research Centre\n\n * Ranbaxy Laboratories Ltd\n\n * Lupin Ltd\n\n * Torrent Pharma\n\n * Wockardt Pharma/n\n * Cadila Pharmaceuticals Sun Pharma\n\n * Cipla\n\n * ICICI Prudential Life Insurance\n\n * Hind GroupAmerican Express Ltd\n\n * HCL Technologies Ltd\n\n * Quark Media House\n\n * Huges Software Systems\n\n * NIIT Technologies\n\n * Effectsoft Ltd\n\n * Grapecity India Pvt. ltd\n\n * Computer Science\n\n * Corporation Syntel Ltd\n\n * Tele- atlas India ( P) Ltd\n\n * NetEdge Computing Solutions\n\n * Kailash Hospital\n\n * Fortis Hospital\n\n * Dr. Reddy’s Laboratories Ltd\n\n * Novartis,\n\n * Zydus Cadilla\n\n * Julbilant Organsys\n\n * Global Healthcare Pvt.Ltd\n\n * Profic Organic Ltd\n\n * Astra Zeneca Ltd\n\n * Reliant Media Ltd\n\n * India Mart Intermesh Ltd\n\n * India Bulls Ltd\n\n\n\n\n\n
+                For any queries\n\n
+Please contact Mr. Ihtiram Raza Khan, Training and Placement Co-ordinator for Dept. of Computer Science.Phone: 011-2605 9688. Extn. 5860, 5858.\n\n
+Please contact Prof.Farhan Jalees Ahmad, Placement Incharge for Faculty of Pharmacy:Mobile-9810720387, E-Mail:fjahmad@jamiahamdard.ac.in\n\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

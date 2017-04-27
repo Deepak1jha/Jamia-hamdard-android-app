@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jamia Hamdard</string>
+    <string name="header" />
+    <string name="username" />
+
+    <string name="getname" />
+    <string name="getpass" />
+    <string name="loginbutton" />
+    <string name="placement" />
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">122792504912751</string>
+</resources>

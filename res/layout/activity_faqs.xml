@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_placement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/transparent"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:scrollbarSize="0dp"
+    android:scrollbars="none"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Faqs">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                app:srcCompat="@drawable/faaq" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Q. What courses do you offer?\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView246"
+                android:text="A.  Our Bachelor,Post Graguate,Distance Learning,Diploama,are listed in the course Section and our online  prospectus which you can download in prospectus section of application.\n You can also download prospectus from university official website.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView249"
+                android:text="Q. What are the entry requirements for your courses?\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView250"
+                android:text="A.  For course entry requirements please see the online Undergraduate Prospectus or the online Postgraduate Prospectus.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView251"
+                android:text="Q. Can I visit the University?\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView252"
+                android:text="A.  The best time to visit the University is during one of our open days, mini open days or other official events.We do not run general postgraduate open days however certain departments may run their own specific events. Please contact the departments directly for details.You can also visit us online at our Virtual open day or watch one of our YouTube videos about the University.If you are unable to make one of our organised events, please feel free to come and conduct a self-guided tour around the campuses at any time."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView253"
+                android:text="Q. How do I get to the University?\n\n "
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView254"
+                android:text="A. Check our Map and direction section and click on jamia hamdard university icon so it will navigate you to the university from your current location with the help of google map.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView256"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView255"
+                android:text="Q.  Where can I find help for international students? Is there a section for my nationality?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView257"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView256"
+                android:text="A. Information for international students can be found via our International Office website.  The International Office has a your country section, where you can find information specifically for your nationality.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView258"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView257"
+                android:text="Q. Does the University have any sports facilities?\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView259"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView258"
+                android:text="A.  The University has great sporting facilities on its campuses, including gyms, Cricket stadium, football pitches and more.For further information please visit the Department of Sport website. There are also plenty of sports clubs to get involved with.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

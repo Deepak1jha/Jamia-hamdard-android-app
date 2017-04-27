@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scholarship"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Scholarship">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/scholarshipppp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scholarships\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Hakeem Abdul Majeed Merit Scholarship of Rs.125 per month tenable for one year is awarded to the students of Jamia Hamdard who secure highest marks in the following examinations:\n\n
+* B. Pharm. I, II and III year (Regular, I Shift)\n\n* B.U.M.S. I, II and III Professional\n\n* B.Sc.(Nursing) I, II and III year\n\n* M.Sc. I year.\n\n
+2. Hakeem Abdul Hameed Fellowship to M.D. (Unani) students.\n\n
+3. The students of Diploma in General Nursing and Midwifery are given monthly stipend as approved from time to time.\n\n
+4. Hamdard Research Fellowships of Rs.4000/- per month is available for 10 Ph.D. students.\n\n
+5. Maulana Wahid Hussain Memorial Merit Scholarship for BUMS, II Professional student.\n\n
+6. Dr. Maqbul Husain Jafri Memorial Scholarship for BUMS, III Professional student.\n\n
+7. Maulana Shah Mustafa Raza Merit Scholarship to the student who secures highest marks in the Admission Test for M.A. (Previous).\n\n
+8. Maulana Ahmad Raza Merit Scholarship to the student who secures highest marks in the M.A. (Previous) Examination.\n\n
+9. Tasmia Merit Scholarship of Rs.500 per month for ten months for a M.Sc. final year student of M.Sc. Biotechnology.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/scholarshippic" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nGEOGRAPHICAL DISTRIBUTION OF STUDENTS IN THE UNIVERSITY\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The University attracts students from all over India, with the majority coming from the states of Delhi, UP, Bihar, Haryana, Jammu and Kashmir and Rajasthan. The other states who have a representation in Jamia Hamdard are Kerala, West Bengal, Gujarat, Orissa, Assam, Punjab, Tamil Nadu, Maharashtra, Manipur, Andhra Pradesh, Himachal Pradesh and Meghalaya. The University also has overseas students from U.A.E., Kuwait, Iraq, Iran, Yemen, Sudan, Mexico, Mauritius, Uganda, Bangladesh and Bhutan.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ECONOMIC STATUS OF THE STUDENTS:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A random sample of 200 (out of 2000 students) students admitted in the year 2000-2001 shows that most of the students come from middle class backgrounds, and from smaller cities and towns. The average number of dependents in their families is seven and the average monthly income of their parents ranges from Rs.5500 to Rs.6500 per month. It is thus clear that the students need financial support during their stay in Jamia Hamdard, so that their parents have an opportunity for educating their other children. The courses offered by Jamia Hamdard are professional in nature and most of the students are able to secure jobs immediately after the completion of studies.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scholarship amount:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In view of the present requirement of financial assistance to the students, it is proposed that the University will accept donations from charitable organizations and individuals for disbursing of scholarships at the rate of Rs.500 per month, payable for ten months. For every scholarship, an amount of Rs.50,000 is required which will be suitably invested and the income out of this investment will be utilised for disbursing this scholarship to students. Amount less than Rs.50,000 will also be accepted.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criteria for Selection of Candidates:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The organization contributing the funds may decide the criteria for selection of students. Generally, the criteria is merit-cum-means.\n\n
+                (a) Selection of the Candidates: The suitable candidates shall be selected through a fair, uniform and transparent selection process.\n\n
+                (b) Name of Scholarship: It will be according to the choice of the Organisation contributing the funds. However, in cases of the amount of donation being less than Rs.50,000, the scholarship will be named by the University.\n\n
+                If the donor so wishes, the academic progress made by the Scholarship holder, will be intimated.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MODE OF TRANSFER OF FUNDS:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Foreign Donor:\n\nThe amount will be payable to Jamia Hamdard, New Delhi. The following language is to be followed in the case of foreign currency remittances. The FCRA (Foreign Contribution Regulation Act, 1976) number of the University is : 231650710.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/scholarshippppp" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nb) Indian Donor \n\nBy means of Bank drafts/crossed cheques drawn in the name of Jamia Hamdard payable at New Delhi.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONCESSIONS UNDER THE INCOME TAX ACT:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="According to Government of India, Ministry of Finance, Director General, Income Tax (Exemptions) Calcutta notification No. DG(E)/80G/93-94 dated December 15, 1993, persons making donations to Jamia Hamdard are entitled to 100 per cent deduction of the amount of donations made to the University, in computing their total taxable Income Tax.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Presently operated scholarships\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The following scholarships are available for the students during the current session. All the scholarships are awarded on the basis of merit. Due consideration is also given to student’s financial needs.\n\n1. Hakim Abdul Majeed Scholarship\n\n
+                For the students who have secured highest % of marks in the last annual examinations of B.\n\nPharm or B.Pharm (Unani) I, II and III year (under regular fee), BUMS I, II and III\n\nprofessional, B.Sc. (Nursing) I, II and III year and M.Sc. I year.\n\n
+ 2. Hakim Abdul Hameed Fellowship\n\nFor a student of M.D. (Unani).\n\n3. Maulana Wahid Hussain Memorial Merit-cum-Fee Scholarship\n\nFor a student of BUMS IInd prof on the basis of merit and n
+ 4. Dr. Maqbool Husain Jafri Memorial Scholarship\n\nFor a student of BUMS IIIrd prof on the basis of merit and need.\n\n5. Tasmia Merit Scholarship\n\nFor a student of M.Sc. IInd year (Biotechnology) on the basis of merit of the candidate.\n\n
+ 6. Nurul Hasan Memorial Scholarship\n\nFor a student of M.Sc. IInd year (Biotechnology) who has secured highest marks.\n\n7. Akhtar Hussain Memorial Merit Scholarship\n\nFor a student who joins BUMS course from Pre-Tibb on the basis of merit.\n\n
+ 8. Hakim S.A. Jamil Qadri Memorial Scholarship\n\nFor a student of B.Pharm 1st year (U) on the basis of need and eligibility.\n\n9. Maulana Shibli Nomani Scholarship\n\nFor a student of B. Pharm. (Unani) IInd Year (SFS) (General) who secures highest marks in B. Pharm (Unani) Ist year.\n\n
+ 10. Jamboonathan Means-cum-Merit Scholarship\n\nFor a B.Sc. (Nursing) IInd year student who have secured highest % of marks in Ist year of the programme.\n\n11. Prof. A.K.M. Ghouse Means-cum-Merit Scholarship\n\nFor a student of M.Sc. IInd year (Environmental Botany) on the basis of merit.\n\n
+ 12. Anchrom Means-cum-Merit Scholarship\n\nFor a student of M.Sc. IInd year (Chemistry-Industrial Applications) on the basis of merit status of the candidate.\n\n13. Hind Agro Industries Merit Scholarship\n\nFor a student of M.Sc. IInd year (Toxicology) on the basis of merit cum financial need of the candidate.\n\n
+ 14. Dr. Manoj Varshney Scholarship\n\nFor a student of M.Sc. IInd year (Chemistry-Industrial Applications) on the basis of merit.\n\n15. Late Maulvi Shabbir Ahmad Scholarship\n\nFor the topper of annual examination of Pre-tibb.\n\n
+ 16. Tasneema Fellowship\n\nFor a female student of M.Sc. II year (Toxicology) for studies on Regulatory Toxicology.\n\n17. Mrs. Farida Haque Scholarship\n\nFor first year student of M.Sc DGNM on the basis of means only and also if she is eligible to receive Zakat.\n\n
+ 18. Musharraf Hussain Jafri Scholarship\n\nFor students of Diploma in Medical Lab Techniques II year on the merit-cum-need basis.\n\n19. Syed Abdul Karim Scholarship\n\nFor a student of Diploma in X-ray and ECG Techniques II year, on the merit-cum-need basis.\n\n
+ 20. A limited no. of Hamdard National Foundation (HNF) Fellowships are available for Ph.D. students.\n\n21. Khwaja Moinuddin Chishti Ajmeri (Gharib Nawaz) merit-cum-means scholarship\n\nTo be awarded on the basis of essay writing competition on the life and work of khwaja Nawaz\n\n
+ 22. Dr. L.M. Singhvi Gold Medallion (or Silver Shield) of accolade\n\nFor the first and second winner of essay competition on a subject of topical importance of inter- faith dialogue conducted every year. The award will be administered by the department of Islamic Studies.\n\n23. Hamdard Centenary Celebrations Scholarship for BUMS students:\n\n
+ 24. Hamdard Centenary Celebrations Scholarships\n\nfor students under SFS category\n\n25. Prof. Syed Vahiduddin Scholarship\n\nTo be given to the needy students.\n\n
+ 26. Nurul Hasan Scholarship\n\nTo a Student of II year of B.Parma.(U) on the basis of Merit and need (generally taking into  account performance in earlier years.\n\n27. Nurul Hasan Scholarship\n\nTo a Student of II year of D.G.N.M. on the basis of Merit and need (generally taking into account  performance in earlier years.\n\n
+ 28. Nurul Hasan Scholarship\n\nTo a Student of II year of Diploma in Operation Theatre Technique on the basis of Merit and need  (generally taking into account performance in earlier years.\n\n29. Rais Ahmad Khan Scholarship\n\nFor a Student of Diploma in Medical Record Techniques Operation Theatre Technique on the basis  of his/her financial condition performance in earlier years.\n\n
+ 30. Mrs. Shakila Naqvi Merit Scholarship\n\nFor a Muslim Female Student of M.Sc. II year who secures highest marks in M.Sc. Ist year of  Faculty of Science.\n\n31. Late Janab Haji Mohammad Ahmad Khan\n\nFor Top Excellence Reward (MASTER) Scholarship\n\nFor two students of B. Pharm (Unani) S econd year on the basis of merit cum means subject to completing and passing of all subjects. (Rs.700 each per months for 10 months)\n\n
+ 32. Late Janab Haji Mohammad Ahmad khan Education Reward (MAKER) Scholarship\n\nFor two students of BUMS Second year on the basis of merit cum means subject to completing and passing of all subjects.(Rs.700 each per months for 10 months)\n\n33. Ashraful Ulama Scholarship\n\nFor scholar of Ph.D on “Ashraful Ulama ki Taalimi Wa Samaji Khidmat Suba Maharashtra Ke Hawale Se” Rs. 4000/- p.m.\n\n
+ 34. Ahraful Ulama Scholarship\n\nFor students of M.A. Previous (Islamic Studies) and M.A. Final Year (Islamic Studies) of Rs. 500 p.m. each.\n\n35. Late Mr. C. R. Arora Scholarship\n\nFor a meritorious and needy student of M.Sc. Chemistry (Industrial Chemistry) Final Year. Amount Rs. 400/-\n\n
+ 36. Late Haji Mohammed Ilyas Memorial Initiative\n\nFor Learning and Educating Students (M-MILES).\n\nFor Bonafide Muslim student/students of master of Business Administration (MBA)-Second Year (Rs. 1125/- per month for 10 months).\n\n37. Late Haji Mohammed Asif (Son of late Janab Mohammed Ishaque (Sandook Wale, 1319 Pahari Imli, Delhi 110006) Reward for knowledgeable student (MARKS) scholarship.\n\nFor Bonafide Muslim Student/students of Master of Science (M.Sc.) (Either in Biochemistry, Biotechnology, Chemistry Industrial Applications, Environmental Botany or Toxicology) for Second year. (Rs. 1125/- per month for 10 months)\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

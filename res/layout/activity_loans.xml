@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loans"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Loans">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_weight="0.07"
+                android:background="@drawable/feestructure" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANNUAL FEE FOR GENERAL AND SELF FINANCING SCHEME (SFS) CANDIDATES\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All the fees should be paid in the form of crossed Demand Draft drawn in favour of ‘Jamia Hamdard’ payable at Delhi / New Delhi or as per instructions in the selection list.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Those who wish to deposit the entire course fee at the time of admission or within 60 days after the Closure of admission shall be granted 10% concession. Those students who would like to deposit full one year dues at the time of admission shall be granted 3% concession on the fee.\n\n     The annual fee may be payable in two equal installments. First installment at the time of admission and second by 31st December of every year.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_weight="0.09"
+                app:srcCompat="@drawable/feefirst" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/feesecond" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/feethird" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/feefourth" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annual Fee for PhD/ MPhil Programme for General category (In Indian Rupees)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/feefifth" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANNUAL FEE FOR FOREIGN NATIONALS/NRI/SPONSORED CANDIDATES"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All the fees should be paid in the form of crossed Demand Draft drawn in favour of ‘Jamia Hamdard’ payable at Delhi / New Delhi or as per instructions in the selection list. Course Fee Those who wish to deposit the entire course fee at the time of admission or within 60 days after the Closure of admissions shall be granted 10% concession. Those students who would like to deposit full one year dues at the time of admission shall be granted 3% concession on the fee. The annual fee may be payable in two equal installments. First installment at the time of admission and second by 31st December of every year."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/feesixth" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/feeseventh" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

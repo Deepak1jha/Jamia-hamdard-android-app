@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Rank">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="361dp"
+                app:srcCompat="@drawable/rankingggg" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n University Ranking\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Ranked 18th among Top 100 Universities in India by National Institutional Ranking Framework (MHRD) in 2016.\n\n* Ranked 3rd among 'Top 50 Pharmacy Institutes for Research and Teaching' in India by National Institutional Ranking Framework (MHRD) in 2016\n\n* Ranked 26th in India and 1307th in World by University Ranking by Academic Performance 2014-15\n\n* Deemed University\n\n* AICTE Approved\n\n* Accredited by NAAC in 'A' grade \n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamia hamdard Pharmacy ranking\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Ranked 3rd among Top Universities in India by National Institutional Ranking Framework (MHRD) in 2016\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53"
+                app:srcCompat="@drawable/rankinkgtable" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

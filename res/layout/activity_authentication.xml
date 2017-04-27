@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_authentication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Authentication">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/resultssss" />
+
+            <TextView
+                android:id="@+id/textView260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="UNIVERSITY EXAMINATION\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:scrollbars="none"
+                android:text="Results - 2016\n\n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView262"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hamdard Institute of Medical Science and Research (HIMSR)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Pharmacy\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Faculty of Management and Information Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView265"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email|phone|map|all"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:linksClickable="true"
+                android:longClickable="true"
+                android:text=" Faculty of Engineering and Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView266"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Faculty of Science\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Faculty of Nursing\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty of Engineering and Interdisciplinary Sciences\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView269"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Faculty of Islamic Studies and Social Science\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Faculty of Medicine (Unani)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamia Hamdard Off Campus, Kannur"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

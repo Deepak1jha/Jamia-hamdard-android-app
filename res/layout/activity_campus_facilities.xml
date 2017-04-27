@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_campus_facilities"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+
+    tools:context="com.example.deepakjha.jamia_hamdard_app.campus_facilities">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_weight="0.00"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/campusfacilities" />
+
+            <TextView
+                android:text="Campus Facilities\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView141"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="In tune with the principle that no educational institution is complete without adequate facilities for co-curricular and extra curricular activities, the university provides extensive facilities. The university also has a fully equipped hospital complete with all modern diagnostic equipments, for providing medical facilities, to it’s employees and outsiders\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView142"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="* Convention Center\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView143"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="Since its very inception as a centre of learning and research, Jamia Hamdard has drawn scholars and researchers from all over the world. As its institutions have grown, so has the influx of visitors who come to avail of the wealth of knowledge offered by its institutions thus providing opportunity to interact with people of similar interests and pursuit.\n\n
+                  To provide a well-planned and well-equipped centre for such meetings and interaction, Jamia Hamdard has a beautifully designed Conference and Convention Centre on its campus. Centrally air-conditioned, elegantly furnished and provided with all the modern amenities of an International Conference venue; the Hamdard Convention Centre offers an ideal facility.\n\n   It consists of the following:\n\n * Conference Hall: It has a capacity of 250 seats.\n\n * Mini Conference Hall: It has a capacity of 60 seats.\n\n * seminar Room: Thirty persons can be accommodated in the Seminar room\n\n * Press Conference Room: It has a capacity of 60 seats.\n\n * Committee Rooms: There are several Committee Rooms of varying seating capacities from 10 to 20 persons.\n\n * Exhibition Hall: A large, well-ventilated and well-lit area, with wall and table-top display facilities, is available for holding exhibitions.\n\n * Conference Secretariat\n\n * Registration Counter\n\n * VIP Lounge for receiving and entertaining VIPs\n\n * Lounging areas on different levels.\n\n * Catering facilities\n\n * Fax/Phone/Postal Facility\n\n * Medical Aid\n\n * Modern audio facility for conferences.\n\n * Theme parties and event management.\n\n * We are best suited for academic conferences/training programs and NGO workshops\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView144"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="* Computer Centre\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView145"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="The University has excellent state-of-the-art computing facilities and system analysis units in it’s computer centre to cater to needs of students . The computer centre is well equipped with advanced computers along with all the necessary peripherals as well as requisite softwares . There are five different laboratories in the computer centre with facilities for their respective development fields as given below .\n\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView146"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="1. Microsoft Back Office Lab\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView147"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="* Server: IBM Netfinity 7000\n\n * Intel Xenon Pentium-III, 500 MHz processor.\n\n * 1029 KB L2 Cache, 1 GB SDRAM\n\n * Nodes 30 (Pentium-III), 450 MHz)\n\n "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView148"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView149"
+                android:text="2. Unix Lab\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="* Server: IBM Netfinity 3500.\n\n * Intel Pentium-II, 333 MHz processor.\n\n * 512 KB L2 Cache,64 MB ECCSD RAM\n\n * Nodes : 15 (Pentium-II, 266 MHz).\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView150"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="3. Internet Technology Lab\n(128Kbps ISDN Internet Line)\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView151"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="* Server: IBM Netfinity 3500\n\n * Intel Pentium-II, 333 MHz processor.\n\n * Nodes: 15 (Pentium-II, 266 MHz).\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView152"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="4. Multimedia and Graphics Lab\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView153"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="* IBM M Pro.: 4 Nos\n\n * Workstations : 3 Nos.\n\n * Intel Pentium-III, 300 MHz with MMX\n\n * 512 KB Cache, 64 MB SD RAM\n\n * Integrated 18-bit Sound Blaster\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView154"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView155"
+                android:text=" 5. Standalone Computers Lab\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="* Pentium-I, 166 MHz: 27 Nos.\n\n * Pentium-II, 266 MHz: 14 Nos.\n\n * Pentium-III, 450 MHz: 17 Nos.\n\n * Pentium-IV, 1.5 GHz: 22 Nos\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView156"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="Other Peripherals:\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView157"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="* Five Dot matrix printers\n\n* Four Laser Printers\n\n* 1 Color Scanner\n\n* CD-Writer\n\n* LCD Projector\n\n* Two Kodak digital video color cameras for video conferencing\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView158"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="* Software Facilities:\n\nSoftware and Packages\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView159"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="* Ms Office 2000 Professional\n\n* Borland C++ Professional\n\n* Visual Studio 6.0 Professional\n\n* Crystal Report 8.5 Develop 30\n\n* Windows 2000 Professional\n\n* Director 8.0\n\n* Turbo C C, C++ Under SCO\n\n* Page Maker 6.5\n\n* Norton Anti-virus\n\n* Compiler Cobol\n\n* MS-Visual Studio Professional 6.0\n\n* Win NT 4.01 Server\n\n* ORACLE 8i\n\n* Developer 2000\n\n* Back Office Server\n\n* Vx2000+ Server based users\n\n* Vx2000+Win Work-station\n\n* Adobe Photo Shop 6.0 (AE)\n\n* Adobe Acrobat 4.0 (AE)\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView160"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView161"
+                android:text="* Scholars House\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="In the campus there is a guest house called Scholars’ House with 12 double-bed air-conditioned rooms and 27 single-bed rooms, out of which 18 single-bed rooms are air-conditioned and 9 single-bed rooms are air cooled, 4 flats with 4 air-conditioned bed. Rooms with living room, dining room and a small lounge equipped with telephone, television, refrigerator and a small kitchenette, with attendant to provide all the comforts required is also a part of our guest house. Besides accommodating University guests, outside examiners, members of the selection board, this guest house is used for residential conferences and has proved very useful for the participants of the conferences. \n\n Scholars House is primarily meant for scholars coming from all over he world. Interaction with the teachers/university of the world over is possible here. Our tariff is affordable and attractive for foreign students coming to India.\n\n  Over a period of time the kitchen of Scholars’ house has earned a good name for itself. As this institution is for better health and education, healthy and nutritious food, as well as old recipes of good old days are revived, which are not to be found anywhere now. Besides, the kitchen is also serving doctors of Majeedia Hospital and providing them food under hygienic condition. In a ‘trial Kitchen’ various recipes are tried and introduced in the menu for the conferences and meetings. We also cater food to outsiders upon request.\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView162"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="Central Instrumentation Facility\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView163"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="  List of instruments:\n\n1. Infra red Spectrophotometer (Hitachi)\n\n2. Double Beam/UV-Visible Spectrophotometer (Hitachi)\n\n3. Florescence Spectrophotometer (Perkin Elmer)\n\n4. Double Beam UV-Visible Spectrophotometer (Shimadzu)\n\n5. HPLC (Binary Pump) with Diod array detector (Kontron)\n\n6. HPLC (Binary Pump) with UV-Visible detector (Shimadzu)\n\n7. HPLC (Quaternary Pump) with UV – Visible detector and Electro Chemical detector\n\n8. HPTLC (Camag)\n\n9. HPTLC (Camag)\n\n10. Automatic Dissolution Test apparatus (Hanson)\n\n11. Differential Scanning Calorimeter, DSC (Perkin Elmer)\n\n12. Electronic Microbalance (Metller)\n\n13. Millipore HPLC water making Instrument.\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView164"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

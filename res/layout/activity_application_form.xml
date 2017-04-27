@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_application_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:scrollbarSize="0dp"
+    android:scrollbars="none"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Application_form">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/jamiaaddmisission" />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For filling the the online admission form "
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="link\n\n\n"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nFor Downloading the DODL application form "
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nInstruction to Fill up the Online Admission Form\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please be ready with the following:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. A scanned copy of your passport size photograph\n\nII. Required information/document to pay the application processing fee (Fee can be paid by Net Banking / Debit card /Credit card)\n\nIII. Your e-mail ID and Cell phone/contact number\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Now proceed as follows …\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Select programmes you want to apply, you will be able to see the available courses for which you may apply to JAMIA HAMDARD. Please select the course type from the dropdown box to proceed.\n\n2. Select if you are applying as an Indian national or as Foreign / NRI / Sponsored candidate.\n\n3. After selecting the course type you will see a list of preferences to fill. You can select a maximum number of 3 preferences. Select a minimum of 1 preference over here to proceed further.\n\n4. Once you have selected your preference, you will be taken to the application form for that course where you will need to fill in all information in each section, which is mandatory to proceed. These include:\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Personal information\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of the Applicant  -  Please mention your name as spelled in your High school certificate. Enter your name only in capital letters.\n\nSports Person  -  Select one of the options available, Yes or No\n\nDifferently abled - Select one of the options, Yes or No\n\nDate of Birth  -  Select the date of birth in the boxes provided as given in your High School (Class X) Certificate. The order of selection is Date-Month-Year; you cannot proceed further unless you select your date of birth.\n\nState of Domicile  -  Select the State you belong in the dropdown box.\n\nParent Annual Income  -  Select the annual household income in the dropdown box\n\nJamia Hamdard Employees’ ward  -  Select appropriate word, Yes or No\n\nSocial Category  –  Select General / SC/ ST\n\nReligion  -  Select the religion you belong to from the dropdown box.\n\nGender - Select one of the options available, Male or Female\n\nMarital Status  -  Select appropriate word, Married or Unmarried\n\nFather’s Name  -  Please enter your father’s name in the box provided as per your High School Certificate. You cannot proceed further unless you mention your Father's name.\n\nMother’s Name  -  Please enter your mother’s name in the box provided as per your High School Certificate. You cannot proceed further unless you mention your Mother's name.\n\nInternal Candidate Information  -  Select status from the dropdown box\n\nLocomotory Disability:  Select appropriate word, Yes or No\n\nIf you select Yes, then select percentage of disability from the drop down box\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact information\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number  -  Please mention your 10 digit mobile number where all mobile/SMS communication is to be sent. This is also mandatory and you will not be able to proceed any further without furnishing your 10 digit mobile phone number.\n\nEnter other alternate Mobile No., if any.\n\nEmail ID - Please mention your email ID for contact. It is mandatory to mention your e-mail ID, without which your application cannot be submitted.\n\nEnter other alternate e-mail ID, if any.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correspondence address\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Enter the address for correspondence including the House/Flat No. and street/locality where you stay.\n\n * Select the city where your correspondence address is located. * Select the state where your correspondence address is located.\n\n * Enter the postal code of your correspondence address.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Permanent Address\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indicate your Permanent Address also, in case it is not same as Correspondence Address using the same procedure.\n\n\n Have you ever been enrolled in Jamia Hamdard: Select, Yes or No\n\nQualifying examination details\n\nQualifying exams:  Select your qualifying examination from the Dropdown box.\n\nYear of Passing/Appearing:  Select passing/appearing year from the Drop down box.\n\nQualifying University / Board:  Select your University / Board from the Drop down box\n\nQualifying Examination Status:  Select Result Awaited or Result Declared\n\nQualifying Test Score Details (if applicable as per instructions in the form):\n\nSelf Financing Scheme (SFS) information: Do you want to enroll under SFS?\n\n(Only for B. Pharm., BUMS, B. Sc. Nursing) and M. Sc. Botany, Biochemistry, Chemistry, Biotechnology and Toxicology)\n\nDeclaration Information: Please read the declaration and proceed.\n\nPhotograph  -  Please upload your photograph as per instructions. This photo will be used as primary identification for various purposes, such as the entrance test admit card or wherever required. Uploading the photograph is mandatory to submit the application form.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Additional Information\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Select (YES) if you are Jamia Hamdard Employee’s Ward Otherwise Select (NO)\n\n* All the Tests, GD’s and interviews will be held at Jamia Hamdard, New Delhi only. However, a center in another State may also be considered, subject to the recommendation of the admission committee and approval of the competent authority.\n\n* Have you ever been enrolled in Jamia Hamdard? If yes then specify the following details: Name of the Regular Programme of Jamia Hamdard, if earlier enrolled - Enter the name of the programme/year you were earlier enrolled.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qualifying Test Score Details\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Qualifying Test (If applicable) - Select your qualifying test from the drop down, if applicable, or select None. If you select any qualifying test then you need to mention your qualifying test Registration No. and Roll No.\n\n* Are you mid-career professional or MBBS/BDS/BUMS/etc. qualified student (For MBA)? - Select Yes, if you are eligible for this else just select NO. If you select yes then you need to specify your qualified subject.\n\n* Do you have two or more years of Industry Experience (For MBA)? Select Yes, if you have 2 or more years of work experience, Select No if you don’t have such experience.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

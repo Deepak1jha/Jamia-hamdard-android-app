@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post_graduation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Post_graduation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:background="@drawable/posttgraduateee" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nCourses Offered by HIMSR\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* MOT (Musculoskeletal)\n\n* MOT (Paediatrics)\n\n* MPT (Musculoskeletal)\n\n* MPT (Cardio – Pulmonary)\n\n* MPT (Neurology)\n\n* MPT (Sports)\n\n* MSc. Medical Microbiology\n\n* MSc. Medical Physiology\n\n* PhD (Medical Microbiology)\n\n* PhD (Medical Physiology)\n\n* PhD (Medical Biochemistry)\n\n* PhD (Pathology)\n\n* PhD (Pharmacology)\n\n* PhD (Medicine)\n\n* PhD (Rehabilitation Sciences)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Pharmacy\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* M.Pharm (Pharmacology)\n\n* M.Pharm (Pharmaceutics)\n\n* M.Pharm (Pharmacognosy and Phytochemistry)\n\n* M.Pharm (Pharmaceutical Chemistry)\n\n* M.Pharm (Quality Assurance)\n\n* M.Pharm (Pharmaceutical Biotechnology)\n\n* M.Pharm (Pharmaceutical Analysis)\n\n* M.Pharm (Pharmacy Practice)\n\n* PhD (Pharmacology and Pharmacology with Specialization in Pharmacy Practice)\n\n* PhD (Pharmaceutics and Pharmaceutics with specialization in Quality Assurance)\n\n* PhD (Pharmacognosy and Phytochemistry and Pharmacognosy and Phytochemistry with specialization in Pharmaceutical Biotechnology)\n\n* PhD (Pharmaceutical Chemistry and Pharmaceutical Chemistry with Specialization in Pharmaceutical Analysis)\n\n* PhD-Pharmaceutical Medicine\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Science\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* MSc (Clinical Research)\n\n* MSc. Biotechnology\n\n* MSc. Biochemistry\n\n* MSc. Toxicology\n\n* MSc. Chemistry\n\n* MSc. Botany\n\n* PhD (Biotechnology)\n\n* PhD (Toxicology)\n\n* PhD (Chemistry)\n\n* PhD (Botany)\n\n* PhD (Biochemistry)\n\n* PhD Clinical and Translational Sciences\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Medicine (Unani)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* MD (Moalijat)\n\n* MD (Ilmul Advia)\n\n* MD Tahaffuzi-wa-Samaji Tib\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Management\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* MBA (General ) – Summer / Winter Session\n\n* MBA (Health and Hospital Management)\n\n* MBA (Pharmaceutical Management)\n\n* PhD (Management)\n\n* PhD (Health Management)\n\n* PhD (Pharmaceutical Management)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Engineering and Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* M.Tech. (Information Security and Cyber Forensics)\n\n* M.Tech (Computer Science and Engineering)\n\n* M.Tech (Computer Science and Engineering) Part Time\n\n* MCA \n\n* PhD (Computer Science)\n\n* PhD (Computer Science and Engineering)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Social Sciences and Humanities\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* MA (Islamic Studies)\n\n* MA (Human Rights)\n\n* MPhil (Federal Studies)\n\n* PhD (Federal Studies)\n\n* PhD (Islamic Studies)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Rufaida College of Nursing/Faculty of Nursing\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* MSc – Nursing (Medical Surgical Nursing)\n\n* MSc – Nursing (Community Health Nursing)\n\n* MSc – Nursing (Obstetric and Gynaecology Nursing)\n\n* MSc – Nursing (Paediatric Nursing)\n\n* MSc – Nursing (Psychiatric Nursing)\n\n* PhD (Nursing)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Inter-disciplinary Sciences and Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* M.Tech (Food Technology)\n\n* PhD (Bioinformatics)\n\n* PhD (Chemoinformatics)\n\n* PhD (Food and Fermentation Technology)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

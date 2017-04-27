@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_graduation__activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Graduation__activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/graduateeee" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nCourses offered by Faculty of Engineering and Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Bachelor of computer application / B.Sc. (IT)\n\n* B.Tech (Computer Science and Engineering) (CSE)\n\n* B.Tech (Electronics and Communication Engineering) (ECE)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses Offered by HIMSR\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.70"
+                android:text="* MBBS – General Category\n\n* MBBS Management Quota\n\n* Bachelor of Occupational Therapy (BOT)\n\n* Bachelor of Physiotherapy (BPT)\n\n* BSc in Medical Laboratory Techniques (BMLT)\n\n* BSc in Dialysis Techniques (BDT)\n\n* BSc in Emergency and Trauma Care Techniques (BETCT)\n\n* BSc in Optometry (BOPT)\n\n* BSc in Medical Imaging Technology (BMIT)\n\n* BSc in Operation Theatre Techniques (BOTT)\n\n* BSc in Cardiology Laboratory Techniques (BCLT)\n\n* BSc in Medical Record and Health Information Management (BMR and HIM)\n\n* BSc in Medical Laboratory Techniques (BSc-MLT)\n\n* Semester (Lateral Entry)\n\n* BSc in Dialysis Techniques (BDT) 3rd Semester (Lateral Entry)\n\n* BSc in Optometry (BOPT) 3rd Semester (Lateral Entry)\n\n* BSc in Medical Imaging Technology (BMIT) 3rd Semester (Lateral Entry)\n\n* BSc in Operation Theatre Techniques (BOTT) 3rd Semester (Lateral Entry)\n\n* BSc in Cardiology Laboratory Techniques (BCLT) 3rd Semester (Lateral Entry)\n\n* BSc. in Medical Record and Health Information Management (BMR and HIM) 3rd Semester (Lateral Entry)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Pharmacy\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* B.Pharm\n\n* B.Pharm II-nd Year (Lateral Entry)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Medicine (Unani)\n\n"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*	Bachelor of Unani Medicine and Surgery(BUMS)\n\n* Pre Tib\n\n* Certificate Course of Unani Dispenser\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Management\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Bachelor of Business Administration\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Social Sciences and Humanities\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* BA (Honors) Islamic Studies\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Rufaida College of Nursing/Faculty of Nursing\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* BSc (Hons.) Nursing\n\n* Post Basic BSc Nursing\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses offered by Faculty of Inter-disciplinary Sciences and Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* B.Tech (Food Technology)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

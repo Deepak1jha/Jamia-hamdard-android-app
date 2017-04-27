@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_why_jamia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.why_jamia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/aboutuspic" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HIGH RANKING UNIVERSITY\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is a high ranked and consequently two times accredited University in 'A' category by National Assessment and Accreditation Council (NAAC). With reference to quality and excellence in higher education, training and research, it is one of the few top ranked Universities in India, which is truly global in its character.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONVENIENT LOCATION CLOSE TO SIGHT SEEING AND MARKETS\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is very conveniently located in the sylvan surroundings of national monument ' Tughlaq Fort' of South Delhi on a 100 Acre picturesque lush green campus with grand and well architecturally designed buildings. It is minutes away from many world renowned architectural / historical wonders like Qutub Minar and very well connected to other major attractions and markets in the city.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOME AWAY HOME\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entering the University, student for all the times to come becomes a member of Jamia Hamdard family. Being on a non-smoking campus with conveniently located meeting hubs at Hostels, Mess, Canteens, Amul Outlet and Cafe' Buddys, one has a number of opportunities to enjoy the warmth and diversity of culture. Come early mornings n evenings, one can see students jogging, playing and having fun in the lush green, clean and non- polluted campus n its sports ground complex.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PERSONAL N PROFESSIONAL TOUCH\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any given time for any given reason, Foreign Students' Advisor is available with a personal touch for attending to the calls of foreign students in the hours of their need. All the ofcers including Vice Chancellor and Registrar of the University are always available to resolve the issues with a personal touch.\n\nApplication  Developed By Deepak kumar jha BCA 3rd year"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

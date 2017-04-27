@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.HomeScreen">
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button3"
+        android:background="@drawable/addmission"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button2"
+        android:background="@drawable/result"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button5"
+        android:background="@drawable/news"
+        android:shadowColor="@android:color/darker_gray"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button7"
+        android:background="@drawable/coursess"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button6"
+        android:background="@drawable/placements"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button4"
+        android:background="@drawable/extraa"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:id="@+id/button10"
+        android:background="@drawable/media"
+        android:layout_height="130dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/button11"
+        android:background="@drawable/abouut"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="ADMISSION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="121dp"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_above="@+id/button6"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginEnd="21dp" />
+
+    <TextView
+        android:text="NEWS/EVENTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginEnd="15dp"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="RESULTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="113dp"
+        android:id="@+id/textView10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="COURSES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginStart="9dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="MEDIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <TextView
+        android:text="ABOUT US"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginStart="8dp"
+        android:id="@+id/textView15"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="PLACEMENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:id="@+id/textView12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:text="EXTRA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView10" />
+
+</RelativeLayout>

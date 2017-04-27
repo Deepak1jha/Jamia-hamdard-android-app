@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_extra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:scrollbarSize="0dp"
+    android:scrollbars="none"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Extra">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="621dp"
+            android:background="@android:color/transparent"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            tools:context="com.example.deepakjha.jamia_hamdard_app.Extra">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dip"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/map" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button22"
+                android:layout_below="@+id/button22"
+                android:layout_marginEnd="23dp"
+                android:text="MAP AND \nDIRECTION"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignBaseline="@+id/button27"
+                android:layout_alignBottom="@+id/button27"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/email" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/button23"
+                android:layout_below="@+id/button23"
+                android:layout_marginStart="23dp"
+                android:text="Email us"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/international" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/button28"
+                android:layout_below="@+id/button28"
+                android:text="International  Students Cell"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView84"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/contact" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button27"
+                android:layout_marginStart="8dp"
+                android:text="CONTACT US"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView24"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/facebook" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_below="@+id/button29"
+                android:text="Facebook\n page"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentEnd="true"
+
+
+                android:layout_alignTop="@+id/button29"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/share" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/view1"
+                android:layout_below="@+id/button41"
+                android:text="Share app"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" /><![CDATA[
+
+
+
+            android:visibility="gone" />
+
+        ]]>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

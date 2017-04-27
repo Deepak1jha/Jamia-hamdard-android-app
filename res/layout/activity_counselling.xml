@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_counselling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.counselling">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/counsellingcell" />
+
+            <TextView
+                android:text="Jamia Hamdard 2017 Application From\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView178"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="Jamia Hamdard 2017 Application Form: Jamia Hamdard University 2017 application form online submission will be started on 1 week of March 2017(expected). Jamia Hamdard University conduct admission for under graduate-UG and Post graduate-PG various courses. This University was constructed in 1989. Jamia Hamdard University located in New Delhi, India. Jamia Hamdard University is an authorized university according to National Assessment and Accreditation Council (NAAC).It is expected that this year huge number of students apply in Jamia Hamdard University and try to give their best in the entrance exam. Students can fill the online application form of Jamia Hamdard University 2017 to visit the official website which is www.jamiahamdard.ac.in. For more details and information about Jamia Hamdard University 2017 entrance exam, exam center, exam fee, students eligibility, exam pattern can be achieved to the Jamia Hamdard university 2017 official web site and this web page also.\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView170"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="Eligibility for Jamia Hamdard University 2017\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView180"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="* Under Graduate degree is important.\n\n *Candidates must secure 50% of minimum marks in their graduation.\n\n *UG courses applicants must be completed an internship from a recognized board.\n\n *Candidates those who have obtained BOT degree in Occupational Therapy will also be considered by examiner\n\n *Students should be completed 20 years."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView181"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="Important date of Jamia Hamdard University PGDM 2017\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView182"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/results"
+                android:id="@+id/imageView6" />
+
+            <TextView
+                android:text="Jamia Hamdard University 2017 application fee\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView184"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="* For all the students: Rs.1500/-\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView185"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:text="Offered various courses:\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView186"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="1. MBBS\n\n2. A\n\n3. LLB\n\n4. BPT\n\n5. BDS\n\n6. BFA\n\n7. Ed\n\n8. Tech\n\n9. Pharm\n\n10. Diploma\n\n11. PG Diploma\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView187"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:text="Contact details:\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView188"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:text="Jamia Hamdard University\n\nHamdard Nagar, New Delhi, India, PIN – 110062\n\nPhone no: 011–26059688\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView189"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:autoLink="phone"
+                android:textColorLink="?android:attr/textColorLink" />
+
+            <TextView
+                android:text="How to fill the Jamia Hamdard University 2017 Application form\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView190"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="* Go to the official website of Jamia Hamdard University.\n\n* Read the Jamia Hamdard University application form 2017.\n\n* Fill the registration form carefully without any mistakes.\n\n* Enter your personal details like Candidate full name, address, phone number, Email address and educational qualification.\n\n* Scan your Photo, signature.\n\n* The registration fees could be paid through Debit card/ Credit Card / Net banking.\n\n* Click the button of “SUBMIT”.\n\n* Get a printout of application form and receipt of payment for further use.\n\n* This web page is completed dedicated to Jamia Hamdard University 2017 application form. You can bookmark this page and visit again later to know the latest updates related to Jamia Hamdard University application form 2017. \n\n* Notes: For More information visits the official website and this web page also.\n\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView191"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

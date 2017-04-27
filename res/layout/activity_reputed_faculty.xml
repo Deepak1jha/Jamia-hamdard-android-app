@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reputed_faculty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.reputed_faculty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/thefounder" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\nThe Founder\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="The Founder-Chancellor of Jamia Hamdard, Hakeem Abdul Hameed, a renowned physician of the Unani syetem of medicine who served the poorest of the poors and also had digniteries such as Prince Charles of England as his patient, was a philanthropist who always had public service as his driving force. Hkm Abdul Hameed set up a complex of educational institutions over a period of time which finally got amalgamated in Jamia Hamdard in 1989.\n\n
+                 The first institute that was built on the piece of land in Tughlaqabad which today houses the Faculty of Science was the Institute of History of Medicine and Medical Research. The foundation stone of this institute was laid down on November 15, 1962 by the then Prime Minister of India, Pandit Jawaharlal Nehru; the building was inaugurated by Mrs. Indira Gandhi, the Prime Minister of India in 70s. The Great Hakeem also set up several other institutes which include the Hamdard National Foundation, Hamdard Education Society, Hamdard Study Circle, Hamdard Public School, Ghalib Academy, the Centre for South Asian Studies, and Business and Employment Bureau.\n\n
+                  Hkm Abdul Hameed was conferred the Padma Shri and Padma Bhushan by the Government of India, awarded the Avicenna Award by the erstwhile USSR in 1983, and was nominated as honorary member of the Academy of Medical Science, Iran. He served as Chancellor of Aligarh Muslim University. In October 2000, the Research Centre for Islamic History, Art and Culture (IRCICA) Istanbul, Turkey, presented IRCICA Award to him posthumously for Patronage in Preservation of Cultural Heritage and Promotion of Scholarship. Hkm Abdul Hameed was a true follower of Islam in letter and spirit and strongly believed in “And spend in the cause of Allah and do good, for He loves those who do good for others” – Al Quran, 2:196.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/chancelor" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\nChancellor\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Chancellor of Jamia Hamdard, Dr. Habil Khorakiwala, is a well known figure in the business world. He is the Chairman of Wockhardt Group and the President of Federation of Indian Chambers of Commerce and Industry (FICCI), the premier Industry Association of India. He has been the National Council member of the Confederation of Indian Industry (CII). He also served as the President of Indian Pharmaceutical Alliance, which is an industry association of top 12 Indian Pharmaceutical companies.\n\n
+                 Dr. Habil Khorakiwala holds a Masters Degree in Pharmaceutical Science from the Purdue University, USA and is an alumnus of the Harvard Business School.\n\n
+                  Mr. Khorakiwala has been nominated by the Government of India in various capacities in Government bodies. He has been a member of the National Managing committee of Indian Red Cross Society, and also a member of the Advisory Board of Council of Scientific and Industrial Research, CSIR. He is an active member of the National Manufacturing Competitive Council and of NIPER, the National Institute of Pharmaceutical Education and Research, set up by the Government of India.\n\n
+                   Dr. Khorakiwala has received many prestigious awards such as The Ernst and Young Entrepreneur of the Year Award for 2004 in the 'Healthcare and Life Sciences' category and the Giants International Award 2003 for Business and Industry for his contribution to Indian business and industry\n\n. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vvcc" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\nVice Chancellor\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prof. Seyed E. Hasnain, Padma Shri, took charge as Vice Chancellor, JH on 2 Sept 2016. Prof. Hasnain is a well known academician and a scientist, known for his excellent work on DNA fingerprinting and on tuberculosis. With over 250 publications in peer-reviewed journals of high impact and dozens of patents globally, Prof. Hasnain has not only established himself as a scientist, but also as an institution builder, policy maker, and an administrator. He taught at Delhi University, worked at the National Institute of Immunology, New Delhi and served as first Director of Centre for DNA Fingerprinting and Diagnostics (CDFD), Govt of India. He made CDFD a gold standard for DNA based crime investigations in the country.\n\n
+                 Prof. Hasnain has travelled widely and has given invited talks at top global Universities including Oxford, Cambridge (UK), Harvard, Yale, Stanford, Univ of California, Salk Inst (USA), Institute Pasteur (France), Max Planck Inst, Frei Univ, Koln Univ (Germany), NUS (Singapore), Univ of Canberra (Australia), China, Thailand, Brazil, Senegal, Iran, Saudi Arabia, Bangladesh, Canada, etc. Currently, Prof. Hasnain is an Invited Professor at IIT Delhi, where he teaches, has a laboratory and is supervising dozens of PhD students and is currently on deputation from IIT-Delhi.\n\n
+                  Prof. Hasnain is recipient of many prestigious awards, such as Germany’s Highest Civilian Award – The Order of Merit (Das Verdienstkreuz, 1.Klasse) from the President of Germany, equivalent of India’s Bharat Ratna, the only Indian so far and one of the very few persons globally. He is a recipient of Humboldt Research Prize (Alexander-von-Humboldt Foundation, Germany); the very exclusive Robert Koch Fellowship (the ONLY Indian so far) of the Robert Koch Institute, Berlin; and the first Indian elected as a Member of the German National Academy of Sciences Leopoldina, and youngest to be elected as a Fellow of TWAS, Trieste. He is elected Fellow of the prestigious American Academy of Microbiology, USA, and has been conferred with the ICMR’s BR Ambedkar Award, the highest award for excellence in biomedical research; besides many other prestigious Indian Awards which include G.D. Birla Award, Shanti Swarup Bhatnagar Prize, FICCI Award, J.C. Bose National Fellow Award, Ranbaxy Research Award, Goyal Award, Bhasin Award etc. He is an elected Fellow of all the major Science Academies of India (FNA, FASc, FNASc), and a recipient of honorary Degrees from Universities in India and abroad. He is the 3rd Indian (Dr APJ Abdul Kalam, 2009, Dr Amartya Sen, 2010) to receive an Honorary Doctorate (2011) from the Queen’s University, UK.\n\n
+                   Prof. Hasnain has served as a Member (2004-2009, 2009-2014) of Science Advisory Council to the Prime Minister (SAC-PM) and Member of Scientific Advisory Committee to the Union Cabinet. He was Chairman of Biotech Advisory Council, Government of Andhra Pradesh for several years and a Member of Biotech Advisory Council of many other State Governments, including Gujarat.\n\n
+                    He was the Vice Chancellor of University of Hyderabad, and is known for his accomplishment in making Hyderabad University among top Indian Universities. He has been the Chairman of the Academic Committee of PGIMER, Chandigarh, and a Member of the PGI Institute Body and Governing Council, as well as Member of the Research Advisory Committee of AIIMS, New Delhi. He has served as a Member of UGC, the Governing Councils of Indian Institute of Advanced Studies, Shimla; IISc, Bangalore; IIM, Khozikode; IISER-Bhopal and several other institutions; policy-making bodies of the Ministries of S and T, MHRD, Health and Defense, and is a member of the Board of Directors/Audit Committees/Remuneration Committees of a number of Companies.\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0.12"
+                android:background="@drawable/jamiahamdardadministration" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\n\nACADEMIC STAFF\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nSchool of Engineering Sciences and Technology\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Dean: Prof. Ranjit Biswas, M.Tech., Ph.D.\n\n Prof. M. Afshar Alam, MCA, Ph.D., Professor and Head\n\n  Prof. Moin Uddin, M.Tech., Ph.D.\n\n  Dr. Farheen Siddiqui, MCA, Ph.D., Assistant Professor\n\n  Dr. Sameena Naaz, M.Tech., Ph.D., Assistant Professor\n\n Dr. Parul Agarwal, MCA, Ph.D., Assistant Professor\n\n Mr. Ihtiram Raza Khan, M.Tech., Ph.D., (Submitted), Assistant Professor Mr. Jawed Ahmed, MCA, Ph.D. (Pursuing), Assistant Professor\n\n Dr. Harleen Kaur. MCA, Ph.D., Assistant Professor\n\n Dr. Syed Imtiyaz Hassan, MCA, Ph.D., Assistant Professor\n\n Ms. Shabina Ghafir, M.Tech, Ph.D., (Pursuing), Assistant Professor\n\n Mr. Bhavya Alankar, M.Tech, Ph.D., (Pursuing), Assistant Professor\n\n Mr. Safdar Tanweer, M.Tech., Ph.D., (Pursuing), Assistant Professor\n\n Mr. Mohd. Abdul Ahad, M.Tech, Ph.D., (Pursuing), Assistant Professor\n\n Ms. Suraiya Parveen, M.Tech, Ph.D., (Pursuing)., Assistant Professor\n\n Mr. Md. Tabrez Nafis, M.Tech, Ph.D., (Pursuing), Assistant Professor\n\n Dr. Vinita Kumari, M.Sc, Ph.D., Assistant Professor\n\n Mr. Anil Kumar Mahto, M. Tech., Ph.D., (Pursuing), Assistant Professor\n\n Mr. Shah Imran Alam, M.Tech, Ph.D., (Pursuing), Assistant Professor\n\n Ms. Richa Gupta, MS (Bioinformatics), Ph.D., (Pursuing), Assistant Professor\n\n Mr. Samar Wazir, M. Tech., Assistant Professor\n\n Mr. Syed Sibtain Khalid, M.Tech. (ECE), Assistant Professor\n\n Ms. Manpreet Kaur Kohli, MBA (HR and Marketing)\n\n Lecturer Ms. Karuna Yogesh Sunami, M. Tech., Assistant Professor\n\n Mr. Aqeel Khalique, M. Tech., Assistant Professor\n\n Mr. Piyush Kumar Gupta, M. Tech., Assistant Professor\n\n Mr. Naved Alam, M. Tech., Assistant Professor\n\n Dr. Amit Bhooshan Singh, M.Sc. (Maths), Ph.D. (Maths), Assistant Professor\n\n  Dr. Siddhartha Sankar Biswas, M.Tech., Ph.D., Assistant Professor\n\n  Mr. Nafisur Rahman, M. Tech., Assistant Professor\n\n  Dr. Jyotsana Grover, M.Tech., Ph.D., Assistant Professor\n\n  Ms. Gautami Tripathi, M. Tech., Assistant Professor\n\n  Mr. Gaurav, M. Tech., Assistant Professor\n\n  Ms. Nida Iftekhar, M. Tech., Assistant Professor\n\n  Mr. Syed Ali Mehdi, M. Tech., Assistant Professor\n\n  Dr. Sherin Zafar, M.Tech., Ph.D., Assistant Professor\n\n  Ms. Neha, M. Tech., Assistant Professor\n\n  Dr. Shailendra Kumar Singh, M.Sc (Phy.), Ph.D (Phy.), Assistant Professor\n\n  Ms. Durgesh, M.A. (English), Lecturer\n\n  Mr. Tabrej Ahamad Khan, M. Tech., Lecturer\n\n  Ms. Pooja Gupta, M. Tech., Assistant Professor\n\n  Mr. Zeeshan Ali Haq, M. Tech., Lecturer\n\n  Ms. Maria Afzal, B.Tech. (ECE), Lecturer\n\n\n
+Computer Centre\n\n Prof. Ranjit Biswas, M.Tech., Ph.D., Head, Computer Centre\n\n Dr. Qamar Parvez Rana, MCA, Ph.D., System Analyst\n\n Azam Khan, MCA, System Analyst\n\n Imran Hussain, MCA, System Analyst\n\n Mirza Rahil Beg, MCA, System Analyst"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\n Hamdard Institute of Medical Sciences and Research , HIMSR\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dean/Principal:   Prof. M.Y. Kharadi\n\n\n\n\n Department of Anatomy \n\n\n\n\n Dr. Shayama Kumari Razdan, MBBS, MS; Professor and Head of the Department\n\n Dr. Raj D. Mehra, M. Sc., Ph.D.; Professor\n\n Dr. Ranjana Verma, MBBS, MS; Associate Professor\n\n Dr. Shalini Kumar, MBBS, MS; Assistant Professor\n\n Dr. Arpita Mahajan, MBBS, MD; Assistant Professor\n\n Dr. Pooja Bhadoria, MBBS, MD; Demonstrator\n\n Dr. Ashar Imam, MBBS; Demonstrator\n\n Dr. Premendra Mohan Sharma, MBBS, PGDCR, PGDUSG; Demonstrator\n\n Dr. Abhipriyam Gahlowt, MBBS; Demonstrator\n\n\n\n\n Department of Physiology\n\n\n\n\n Dr. M. Shobitha, MBBS, MD; Professor and Head of the Department\n\n Dr. Md. lqbal Alam, M.Sc., Ph.D ; Professor\n\n Dr. Preeti Tyagi, MBBS, MD; Assistant Professor\n\n Dr. Fauzia lftikhar, MBBS; Demonstrator\n\n Dr. Manju Sharma, MBBS; Demonstrator\n\n Dr. Sangeeta Kohli, MBBS; Demonstrator\n\n\n\n\n Department of Biochemistry\n\n\n\n\n Dr, Sarita Agarwal, MBBS, MI); Professor and Head of the Department\n\n Dr. S. K. Jain, M.Sc., Ph.D.; Professor\n\n Dr. Shweta Singh, MBBS, MI); Associate Professor\n\n Dr. Kahkasha, MBBS, MD; Assistant Professor\n\n Dr. Sana Alam, MBBS, MD; Lecturer\n\n Ms. Bhumika Upadhyaya, M.Sc.; Demonstrator\n\n Mr. Kailash Chandra, M. Sc.; Demonstrator\n\n Dr. Inara Abeer, MBBS; Demonstrator\n\n\n\n\n Department of Pharmacology\n\n\n\n\n Dr. Nilanjan Saha; MI3I3S, MI); Professor and Head of the Department\n\n Dr. Razi Ahmad; MBBS, DCII, MD; Professor\n\n Dr. Deepti Chopra, MBBS, DTCD; Associate Professor\n\n Dr. Manju Sharma, M. Pharm., Ph.D.; Assistant Professor\n\n Dr. Shoma Mukharjee, MBBS, MD; Lecturer\n\n Dr, Sana Rehman, MBBS, MD; Demonstrator\n\n Dr. Shubhnita Singh, MBBS; Demonstrator\n\n Dr. Zenis Baluja, MBBS; Demonstrator\n\n\n\n\n Department of Pathology\n\n\n\n\n Dr. Sujata Jetley, MBBS, MD; Professor and Head of the Department\n\n Dr. Zeeba Shamim Jairajpuri, MBBS, MD; Associate Professor\n\n Dr. Sabina khan, MBBS, MD; Associate Professor\n\n Dr. Mohd Jaseem Hassan, MBBS, MD; Associate Professor\n\n Dr. Safia Rana, MBBS, DCP, D.N.B.; Assistant Professor\n\n Dr. Shaan Khetrapal, MBBS, MD; Assistant Professor\n\n Dr. Nehal Ahmad, MBBS, MD; Lecturer\n\n Dr. Rubeena Naz Mohroo, MBBS, MD; Lecturer\n\n Dr. Jyotsana Harit Gaur, MBBS, MD; Demonstrator\n\n Dr. Devyani Pendharkar, MBBS, DNB; Demonstrator\n\n Dr. Monal Trisal, MBBS, MD; Demonstrator\n\n Dr. Monika Sharma, MBBS, MD; Demonstrator\n\n\n\n\n Department of Microbiology\n\n\n\n\n Dr. Mridu Dudeja, MBBS, MD; Professor and Head of the Department\n\n Dr. Rachna Tiwari, MBBS, MD; Associate Professor\n\n Dr. Mehvash Haider, MBBS, MD Assistant Professor\n\n Dr. Azra Shauqia Hasan, MBBS, MD; Assistant Professor\n\n Dr. Oves Siddique, MBBS, MD; Assistant Professor\n\n Dr. Neetu Shree, MBBS, MD; Assistant Professor\n\n Dr. Shikhar Saxena, MBBS, MD; Demonstrator\n\n Dr. Saba Alam, MBBS; Demonstrator\n\n Ms. Shyamasree Nandy Das, M.Sc.; Demonstrator\n\n Mr. Ayan Kumar Das, M.Sc.; Demonstrator\n\n\n\n\n Department of Forensic Medicine\n\n\n\n\n Dr. P. C. Dikshit, MBBS, MD; Professor and Head of the Department\n\n Dr. Amit Sharma, MBBS, MD; Associate Professor\n\n
+            Dr. Shahina, MBBS, MD; SR/Demonstrator\n\n Dr. Showket Rashid, MBBS, MD; Demonstrator\n\n\n\n\n Department of Community Medicine\n\n\n\n\n Dr. Rambha Pathak, MBBS, MD, DNB; Professor and Head of the Department\n\n Dr. Sushovan Roy, MBBS, MD; Associate Professor\n\n Dr. Farzana Islam, MBBS, MD; Associate Professor\n\n Dr. Mohd. Vasim Ismail, M.Sc., Ph.D.; Assistant Professor\n\n Dr. Nazish Rashid, MBBS, MD; Assistant Professor\n\n Dr. Mamta, MBBS, MD; Assistant Professor\n\n Dr. Zakirhusain A. Shaikh, MBBS, MD, DHRM; Assistant Professor\n\n Dr. Faheem Ahmed, MBBS, MD, MBA; Lecturer\n\n Dr. Rashmi Agarwalla, MBBS, MD; Lecturer\n\n Dr. Sanjay Gupta, MBBS; Demonstrator\n\n Dr. Meely Panda MBBS, MD; Demonstrator\n\n Dr. Mitasha Singh, MBBS, MD; Demonstrator\n\n Dr. Uroosa Jabeen, MBBS, DGO; Lady Medical Officer\n\n Dr. Yasmeen Abdullah, MD Physician; Lady Medical Officer\n\n\n\n\n Department of Medicine\n\n\n\n\n Dr. Sunil Kohli, MBBS, MD; Professor and Head of the Department\n\n Dr. Smita Manjavkar, MBBS, MD; Professor\n\n Dr. Vindu Amitabh, MBBS, MD, DTCD; Professor\n\n Dr. Prem Kapur, MBBS, MD; Professor\n\n Dr. Mohd Anwar Habib, MBBS, MD; Associate Professor\n\n Dr. Vineet Jain, MBBS, MD; Assistant Professor\n\n Dr. Jyotsana, MBBS, MD; Assistant Professor\n\n Dr. Khan Afreen Mushtaq Ahmed, MBBS, MD; Assistant Professor\n\n\n\n\n Department of TB and Chest\n\n\n\n\n Dr. Veena Gupta, MBBS, MD, Professor and Head of the Department\n\n Dr. Sumeera Banday, MBBS, MD; Lecturer\n\n\n\n\n Department of Dermatology\n\n\n\n\n Dr. Avinash Kumar, MBBS, MD; Associate Professor\n\n Dr. Mukesh Manjhi, MBBS, MD; Assistant Professor\n\n\n\n\n Department of Psychiatry\n\n\n\n\n Dr. R. C. Jiloha, MBBS, MD; Professor and Head of the Department\n\n Dr. Deeksha Elwadhi, MBBS, MD; Assistant Professor\n\n\n\n\n Department of Pediatrics\n\n Dr. A. K. Patwari, MBBS, MD; Professor and Head of the Department\n\n Dr. Chandra Mohan Kumar, MBBS, MD; Professor\n\n Dr. Aparna Chakravarty, MBBS, MD; Assistant Professor\n\n Dr. Ankit Verma, MBBS, MD; Assistant Professor\n\n\n\n\n Department of Surgery\n\n\n\n\n Dr. Musharraf Hussain, MBBS, MS, DNB, MRCS; Professor and Head of the Department\n\n Dr. Pavitra Kumar Ganguly, MBBS, MS; Professor\n\n Dr. Tapan Sinha, MBBS, MS, M.Ch. (Urology); Professor\n\n Dr. Ajay Kumar Thakral, MBBS, MS; Associate Professor\n\n Dr. Mohammad Mohsin, MBBS, MS; Assistant Professor\n\n Dr. Raja Nadeem, MBBS, MS; Lecturer\n\n Dr. Divya Prasad, MBBS, MS; Lecturer\n\n Dr. Junaid Alam, MBBS, MS; Lecturer\n\n\n\n\n Department of Orthopedics\n\n\n\n\n DParamedicalr. Shishir Rastogi, MBBS, MS, DNB; Professor and Head of the Department\n\n Dr. Sandeep Kumar, MBBS, MS; Professor\n\n Dr. Javed Jameel, MBBS, MS; Associate Professor\n\n Dr. Mohd. Ammar Aslam, MBBS, MS; Lecturer\n\n\n\n\n Department of Ophthalmology\n\n\n\n\n Dr. Vishnu Swarup Gupta, MBBS, MS, Professor and Head of the Department\n\n Dr. Hina Kausar, MBBS, MS; Associate Professor\n\n Dr. Taskin Khan, MBBS, MS; Assistant Professor\n\n\n\n\n Department of ENT\n\n\n\n\n Dr. Khaja Naseeruddin, MBBS, MS, DLO; Professor and Head of the Department\n\n Dr. Seema Monga, MBBS, MS; Associate Professor\n\n Dr. Arun Parkash Sharma, MBBS, MS; Lecturer\n\n Dr. Junaid Nasim Malik, MBBS, DNB; Lecturer\n\n\n\n\n Department of Obst and Gynae\n\n\n\n\n Dr. Swaraj Batra, MBBS, MS; Professor and Head of the Department\n\n
+            Dr. Aruna Nigam, MBBS, MS; Professor\n\n Dr. Neha Gupta, MBBS, MS; Associate Professor\n\n Dr. Arifa Anwar Elahi, MBBS, DNB; Associate Professor\n\n Dr. Sumedha Sharma, MBBS, MS; Assistant Professor\n\n Dr. Neha Varun, MBBS, MS; Assistant Professor\n\n Dr. Nidhi Gupta, MBBS, MS; Assistant Professor\n\n Dr. Arpita De, MBBS, MS; Assistant Professor\n\n\n\n\n Department of Anaesthesia\n\n\n\n\n Dr. Kharat Mohd. Batt, MBBS, MD; Professor and Head of the Department\n\n Dr. Raktima Anand, MBBS, MD, Professor\n\n Dr. Anjali Kochhar, MBBS, MD; Associate Professor\n\n Dr. Archana Rani, MBBS, DNB; Assistant Professor  \n\nDr. Pratibha Panjiar, MBBS, MD; Assistant Professor Dr. Jahanara Banday, MBBS, MD; Assistant Professor \n\n Dr. Samiksha Khanoja, MBBS, MD; Lecturer\n\n\n\n\n Department of Radio-diagnosis\n\n\n\n\n Dr. S S Anand, MBBS, MD, DRM; Professor and Head of the Department\n\n Dr. Abhinav Jain, MBBS, DNB; Assistant Professor\n\n\n\n\n Department ofDentistry \n\n\n\n\n Dr. Ashok Kumar Kapoor, BDS, MDS; Professor and Head of the Department\n\n Dr. Nilima Sharma, BDS, MDS; Associate Professor\n\n Dr. Akbar Naqvi, BDS, MDS; Lecturer \n\n\n\n\nsciencesnDepartment of  Rehabilitation n\n\\n\n\n Prof. R.C. Jiloha, Professor and Head of the Department\n\n\n\n\n Physiotherapy Unit\n\n\n\n\n Ms Nishat Quddus, MPT (Osteomyology), Asstt. Prof., Incharge, Physiotherapy\n\n Ms Kalpana Zutshi, MPT (Sports), Asstt. Prof. \n\nMr Sohrab A. Khan, MPT (Osteomylogy), Asstt. Prof. \n\nMs Nusrat Hamdani, MPT (Neurology),Asstt. Prof. \n\nMs Jyoti Ganai, MPT (Cardiopulmonary), Asstt. Prof. \n\nMr Deepak Malhotra, MPT (Sports Medicine), Asstt. Prof. \n\n Ms Ashima Chachra, MPT (Sports), Asstt. Prof.\n\n Ms Benish Aslam, MPT (Orthopaedics), Lecturer\n\n Mr Zuheb Ahmed Siddiqui, MPT ( Orthopaedics), Lecturer\n\n Ms Nahid Khan, MPT (Cardiopulmonary), Lecturer\n\n Mr Hammad Ahmed Siddiqui, MPT (Neurology), Lecturer\n\n Ms Prachi Tiwari, MPT (Neurology), Lecturer,\n\n Mr Mohd. Rizwan Khan, MPT (Orthopaedics), Lecturer \n\n\n\n\nOccupational Therapy Unit\n\n\n\n\n Ms. Ona Pranav Desai, M.Sc. (O.T. in Neurology), Associate Prof./Incharge Occupational Therapy\n\n Ms Ruchi Nagar Buckshee,M.Sc. O.T. in Rehabilitation of Physically Handicapped, Asstt. Prof. \n\n Ms Shubha Arora, MOT (Paediatrics), Asstt. Prof.\n\n Ms Rashida Begum, MOT (Paediatrics), Asstt. Prof.\n\n Ms Swati, MOT (Musculoskeletal), Lecturer\n\n Mr Shashank Sharma, MOT (Musculoskeletal), Lecturer \n\n Ms. Nazia Ali, MOT (Paediatrics), Lecturer \n\n Mr. Owais Ahmed Bhat, MOT (Musculoskeletal), Lecturer \n\n\n\n\nDepartment of  Sciences\n\n\n Dr. Iqbal Alam, M.Sc., Ph.D.; Professor and Head of the Department \n\nDr. P.Bhalla, MBBS, MD, Associate Professor \n\n Dr. Saltanat Jamal, MBBS; Lecturer\n\n Mr. Mohan Lal Bhagwat, M.Sc., Lecturer\n\n Dr. Azhar Yusuf, MBBS, Demonstrator\n\n Ms. Nikhat Khan, B.Sc., Clinical Instructor\n\n Ms Asma Khatoon, B.Sc., Clinical Instructor\n\n Ms Sarita Rani, B.Sc., Clinical Instructor\n\n Ms. Saqia Khanam, B.Sc., Clinical Instructor \n\n Ms. Shazia Khan, B.Sc., Clinical Instructor \n\n Ms. Aiman Fatima, B.Sc., Clinical Instructor\n\n Mr. Muneeb Qadir, B.Sc., Clinical Instructor\n\n Mr. Mohd. Areeb, B.Sc., Clinical Instructor\n\n Mr. Shumyla Khan, B.Sc., Clinical Instructor\n\n Ms. Disha Faujdar, B.Sc., Clinical Instructor\n\n Ms. Ruqaiya Ramzan, B.Sc., Clinical Instructor\n\n Mr. Sharique Shamim, B.Sc., Clinical Instructor\n\n Ms. Nitika Kumari, B.Sc., Clinical Instructor\n\n Ms. Vibha Singh, B.Sc., Clinical Instructor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

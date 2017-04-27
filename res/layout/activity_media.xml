@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_media"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Media">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button31"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/one" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nJamia Hamdard, A university with new idea of University education\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/button32"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/btwo" />
+
+            <TextView
+                android:id="@+id/textView240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nAdmissions open for Jamia Hamdard, New Delhi (Faculty of Nursing)\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/c" />
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nIran Tradition performance of 7Seen in Rendezvous 2014 Jamia Hamdard University \n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/ddd" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nForeigner Extravaganza- Jamia Hamdard\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/eee" />
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n Havana band (Cultural Evening) - Jamia Hamdard University\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/fff" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\njamia hamdard 2016 alumneria fest\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@drawable/jjj" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" RJ NAVEZ IN JAMIA HAMDARD UNIVERSITY"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

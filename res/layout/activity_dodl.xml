@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dodl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="05dp"
+    android:paddingLeft="05dp"
+    android:paddingRight="05dp"
+    android:paddingTop="05dp"
+    tools:context="com.example.deepakjha.jamia_hamdard_app.Dodl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/distancelearning" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n About dodl\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ministry of Human Resource Development, Government of India, granted to Jamia Hamdard, the status of a ‘Deemed to be a University’, in 1989 under section 3 of University Grant Commission Act, 1956. Since its establishments, Jamia Hamdard has made commendable progress with regard to expansion of facilities for higher learning and diversification of teaching and research programmes in frontier areas of biological Sciences, Unani Tibb and Pharmaceutical Sciences, Computer Sciences and Information Technologies and Management. The University has a strong base of infrastructure for quality teaching and research. On the basis of the overall assessment of its performance in realizing the university mandate and contributions made by various departments and faculties to the growth of knowledge, National Assessment and Accreditation Council of UGC has accredited the University under category ‘A’. The University is internationally recognized as over 10 percent of the total students are from foreign countries.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In order to provide learning opportunities to students for participating in ongoing educational revolution in the country, the University has taken initiatives to take advantage of the advances in information and communication technologies to widen the reach of education and to enhance quality of education through the use of multi-media methods of teaching and learning. The University has therefore launched programmes through open and distance learning systems, which adopt flexible and innovative methods of education to ensure ‘independent learning’ to anyone, anytime and anywhere. The programmes of the study are customized to meet the learning requirements of knowledge seekers as well as to ensure that they learn at their own pace and convenience. The cost of education is low, which enables the educationally backward sections of population to take advantage of University’s programmes. The professional and job oriented courses offered by the University lead to the award of degrees/diplomas which are recognized by the Government and are equivalent to the degrees/diplomas awarded by other Universities in India and abroad.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distance Education has become a trend of the day, since past many years. More and more people want to get distant education so that they can continue working side by side and make money out of their job. Somehow these distant learning courses have also been supported by best universities of India. One of such university, supporting distance education is Jamia Hamdard University Distance Education. It is offering a wide range of courses to eligible students. Distant learning courses are generally taught online or at specific centers by the university. Jamia Hamdard Distance Education Courses are mentioned below.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diploma Courses\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Diploma in 3-D Animation (D3DA)\n\n* Diploma in Web Designing (DWD)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Graduate Courses\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Bachelor of Computer Applications (BCA)\n\n* Bachelor of Business Administration (BBA)\n\n* Bachelor of Science in Multimedia and Animation (BSCMA)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Graduate (PG) Diploma Courses\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* PG Diploma in Bio- Informatics (PGDB)\n\n* PG Diploma in Chemo- Informatics (PGDC)\n\n* PG Diploma in Dietetics and Therapeutic Nutrition (PGDTN)\n\n* PG Diploma in Environmental Monitoring and Impact Assessment (PGDEMIA)\n\n* PG Diploma in Pharmaceutical Regulatory Affairs (PGDPRA)\n\n* PG Diploma in Intellectual Property Right (PGDIPR)\n\n* PG Diploma in Human Rights (PGDHR)\n\n* PG Diploma in Medical Record Techniques (PGDMRT)\n\n* PG Diploma in Occupational Health Management (PGDOHM)\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Admission Procedure *"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to apply for admission?\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email"
+                android:text="* You can download the admission form from the official website- http://www.jamiahamdard.edu/ \n\n* Application form and prospectus can be obtained from- Directorate of Open and Distance Learning (DODL), Jamia Hamdard University on payment of Rs.500. Application form can also be downloaded from the website www.jamiahamdard.edu and submitted by post with a Demand Draft for Rs. 600/- in favour of JAMIA HAMDARD payable at NEW DELHI.\n\n* Send completed application to the address mentioned below in Contact Address. \n\n* Remember that you must satisfy the eligibility criteria for admission in required distance learning course. The eligibility criteria are given below.\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility criteria for all courses"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Bachelor of Business Administration (BBA)\n\n Duration: 3 years Eligibility: \n\n10 + 2 in any disciple\n\n* Bachelor of Computer Application (BCA) \n\nDuration: 3 years Eligibility: \n\n10 + 2 in any disciple\n\n* PG Diploma in Bio-informatics (PGDB) \n\nDuration: 1 year \n\nEligibility: Bachelor of Science in Biology or Bachelor of Science in Mathematics/Statistics with Biology at 10+2\n\n*  PG Diploma in Dietetics and Therapeutic Nutrition (PGDTN) Duration: 1 year\n\n Eligibility: Bachelor of Science degree in Home Science or Biological Sciences\n\n* PG Diploma in Pharmaceutical Regulatory Affairs (PGDPRA)\n\n Duration: 1 year\n\n Eligibility: Bachelor of Pharmacy/MBBS or Bachelor degree with one year experience in Pharmaceutical Industry\n\n* PG Diploma in Environmental Monitoring and Impact Assessment (PGDEMIA)\n\n Duration: 1 year\n\n Eligibility: Bachelor of Science in any branch of science\n\n* PG Diploma in Intellectual Property Right (PGDIPR)\n\n Duration: 1 year\n\n Eligibility: Bachelor degree in any discipline\n\n* PG Diploma in Human Rights (PGDHR)\n\n Duration: 1 year\n\n Eligibility: Bachelor degree in any discipline\n\n* PG Diploma in Medical Record Techniques (PGDMRT)\n\n Duration: 1 year\n\n Eligibility: Bachelor degree in any discipline\n\n* PG Diploma in Occupational Health Management (PGDOHM)\n\n Duration: 1 year\n\n Eligibility: Bachelor degree in any discipline\n\n* Bachelor of Science in Multimedia and Animation (BSCMA)\n\n Duration: 3 years\n\n Eligibility: 10 + 2 in any discipline\n\n* Diploma in Web Designing (DWD)\n\n Duration: 1 year\n\n Eligibility: 10 + 2 in any discipline\n\n* Diploma in 3D Animation (D3DA)\n\n Duration: 1 year\n\n Eligibility: 10 + 2 in any discipline\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Address\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email|phone|all"
+                android:contextClickable="true"
+                android:text="The Director,\n\nDirectorate of Open and Distance Learning,\n\nFirst Floor, HMS Central Library,\n\nJamia Hamdard, Hamdard Nagar,\n\nNew Delhi 110062 \n\nE-mail: director_dodl@jamiahamdard.ac.in\n\nPhone: 0091-11-26059694 (Direct) 26059688 (12 lines) Ext. 5341,5342, 5343\n\nFax No. 0091-11-26059663; Website: www.jamiahamdard.edu\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
